@@ -3,6 +3,7 @@ header {
     height: 80px;
     width: 100%;
     background-color: #040404;
+    margin-bottom: 0;
 }
 .login-page-body{
     background-image: url('/images/market.jpg');
@@ -12,12 +13,16 @@ header {
     border: solid 2px #040404;
     background-color: darkgrey;
     height: 90vh;
+    margin:0;
+    padding:0;
 }
 
 .header_logo{
     float: left; 
     font-size: 5px;
     width:25%;
+    height:0%;
+    margin-bottom: 0;
 }
 .logo_item{
     font-family:  tahoma;
@@ -25,7 +30,6 @@ header {
     padding: 10px;
     display: inline-block;
     border: solid 2px whitesmoke;
-    margin: 15px;
     box-sizing: border-box;
     font-size: 22px;
     color: whitesmoke;
@@ -50,8 +54,18 @@ header {
     float: left;
     
 }
+nav{
+    float: left;
+    width: 25%;
+    background-color: #040404;
+    color:white;
+    height: 80vh;
+    margin-top : 0;
+    position: fixed;
+}
 
 .container{
+    
     padding-top: 0vh;
     padding-bottom: 0vh;
     width: 50%;
@@ -64,6 +78,14 @@ header {
     border: solid 2px #040404;
 }
 
+#registration{
+
+ float:right;
+ width:50%;
+ border: solid 2px black;
+ margin-right:10px;
+
+}
 
 .input-group{
     margin-bottom: 1rem;
